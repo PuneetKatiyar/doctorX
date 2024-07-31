@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doctor X</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo-container">
+                <img src="./images/logo.jpg" alt="Doctor X Logo" class="logo">
+                <h1 class="site-name">Doctor X</h1>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#services">Services</a></li>
+                <li><a href="#doctors">Doctors</a></li>
+                <li><a href="#appointments">Appointments</a></li>
+                <li><a href="#testimonials">Testimonials</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+            </ul>
+            <div class="menu-toggle">&#9776;</div>
+        </nav>
+        <div class="hero">
+            <div class="hero-content">
+                <h1>Welcome to Doctor X</h1>
+                <p>Your Health, Our Priority</p>
+                <a href="#services" class="cta-button">Explore Services</a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section id="services">
+            <h2>Our Services</h2>
+            <div class="services-grid">
+                <div class="service">
+                    <img src="./images/s1.jpg" alt="Service 1">
+                    <h3>General Consultation</h3>
+                    <p>Comprehensive health check-ups and personalized consultations.</p>
+                </div>
+                <div class="service">
+                    <img src="./images/s2.jpg" alt="Service 2">
+                    <h3>Specialist Care</h3>
+                    <p>Expert care from our experienced specialist doctors.</p>
+                </div>
+                <div class="service">
+                    <img src="./images/s3.jpg" alt="Service 2">
+                    <h3>Neourologist</h3>
+                    <p>Expert care from our experienced specialist doctors.</p>
+                </div>
+                <div class="service">
+                    <img src="./images/24.jpg" alt="Service 3">
+                    <h3>Emergency Services</h3>
+                    <p>24/7 emergency services for immediate medical attention.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="doctors">
+            <h2>Our Doctors</h2>
+            <div class="doctors-grid">
+                <div class="doctor">
+                    <img src="./images/dr1.jpg" alt="Doctor 1">
+                    <h3>Dr. Prakhar Katiyar</h3>
+                    <p>Cardiologist</p>
+                </div>
+                <div class="doctor">
+                    <img src="./images/dr2.jpg" alt="Doctor 2">
+                    <h3>Dr. Prajwal Gautam</h3>
+                    <p>Dermatologist</p>
+                </div>
+                <div class="doctor">
+                    <img src="./images/dr3.jpg" alt="Doctor 3">
+                    <h3>Dr. Puneet Katiyar</h3>
+                    <p>Pediatrician</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="appointments">
+            <h2>Book an Appointment</h2>
+            <div class="appointment-form">
+                <form action="#" method="post">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Phone</label>
+                        <input type="tel" id="phone" name="phone" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="service">Service</label>
+                        <select id="service" name="service" required>
+                            <option value="general">General Consultation</option>
+                            <option value="specialist">Specialist Care</option>
+                            <option value="emergency">Emergency Services</option>
+                        </select>
+                    </div>
+                    <button type="submit" class="cta-button">Book Now</button>
+                </form>
+            </div>
+        </section>
+
+       
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <div class="contact-info">
+                <p>Email: puneetkatiyar400@gmail.com</p>
+                <p>Phone: +917752814426</p>
+                <p>Address: Bilhaur, Kanpur Nagar, Uttar pradesh, 209202</p>
+                <div class="social-links" style="background-color: slategrey;">
+                    <a href="#"><i class='bx bxl-facebook'></i></a>
+                    <a href="#"><i class='bx bxl-twitter'></i></a>
+                    <a href="#"><i class='bx bxl-instagram'></i></a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Doctor X</h3>
+                <ul>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#doctors">Doctors</a></li>
+                    <li><a href="#appointments">Appointments</a></li>
+                    <li><a href="#testimonials">Testimonials</a></li>
+                    <li><a href="#contact">Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Contact Us</h3>
+                <ul>
+                    <li>Email: puneetkatiyar400@gmail.com</li>
+                    <li>Phone: +917752814426</li>
+                    <li>Bilhaur, Kanpur Nagar, Uttar pradesh, 209202</li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Follow Us</h3>
+                <ul >
+                    <li><a href="#"><i class='bx bxl-facebook'></i></a></li>
+                    <li><a href="#"><i class='bx bxl-twitter'></i></a></li>
+                    <li><a href="#"><i class='bx bxl-instagram'></i></a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Doctor X. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
